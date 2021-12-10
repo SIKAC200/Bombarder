@@ -28,6 +28,6 @@ class BombardEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('mail');
+        return $this->subject('Poursuite judiciaires')->view('mail');
     }
 }
