@@ -28,6 +28,6 @@ class BombardEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.bombarderMail');
+        return $this->view('emails.mail');
     }
 }
